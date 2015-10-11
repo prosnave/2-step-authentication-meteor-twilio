@@ -1,12 +1,6 @@
-// Router.route('/', {
-//   name: 'home'
-// });
-
-Router.route('/', function () {
-  this.render('Home', {
-    name: 'home'
-    // data: function () { return Items.findOne({_id: this.params._id}); }
-  });
+Router.route('/', {
+  name: 'home',
+  controller: 'AppController'
 });
 
 Router.route('/dashboard', {

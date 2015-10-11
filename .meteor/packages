@@ -36,4 +36,4 @@ random
 ejson
 spacebars
 check
-dispatch:twilio
+dispatch:accounts-sms
